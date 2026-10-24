@@ -1,0 +1,33 @@
+# 构建产物 / 本地资源（一律不入库）
+dist/
+build/
+*.spec
+__pycache__/
+*.pyc
+
+# 语音模型（66MB，见 README 下载说明）
+model/
+
+# 反编译产物（第三方专有代码，禁止分发）
+uniapp/
+*.apk
+*.apk.1
+*.dex
+*.jar
+
+# 本地配置与日志（可能含 token / 设备地址）
+ai_config.json
+device_config.json
+*.log
+mizzzee_log.txt
+mizzzee_error.log
+
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# 系统
+.DS_Store
+Thumbs.db
+desktop.ini
